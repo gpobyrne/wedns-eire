@@ -2,9 +2,7 @@ site_name: Dandy Neurosurgical Society - Ireland # Change this to your site name
 site_description: website for the irish chapter of the Walter E Dandy Neurosurgical Society
 site_url: https://wedns-eire.github.io/wedns-eire # Change this to your site URL
 site_author: gpobyrne
-
-repo_name: gpobyrne/wedns-eire
-repo_url: https://github.com/gpobyrne/wedns-eire
+language: en
 
 copyright: Copyright &copy; 2023 - 2024 George-Paul O`Byrne
 
