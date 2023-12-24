@@ -1,7 +1,12 @@
-site_name: $site_name # Change this to your site name
-site_description: $site_description
-site_url: $site_url # Change this to your site URL
-site_author: $site_author
+site_name: Dandy Neurosurgical Society - Ireland # Change this to your site name
+site_description: website for the irish chapter of the Walter E Dandy Neurosurgical Society
+site_url: https://wedns-eire.github.io/wedns-eire # Change this to your site URL
+site_author: gpobyrne
+
+repo_name: gpobyrne/wedns-eire
+repo_url: https://github.com/gpobyrne/wedns-eire
+
+copyright: Copyright &copy; 2023 - 2024 George-Paul O`Byrne
 
 theme:
     name: 'material'
@@ -9,16 +14,16 @@ theme:
     favicon: assets/meta/favicons.png
     custom_dir: overrides
     font:
-        text: Ubuntu
+        text: Inter
         code: Ubuntu Mono
-    language: $language
-    palette:
+    language: en
+    palette: 
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: light blue
+      primary: custom
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -26,19 +31,24 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: indigo
+      primary: grey
+      accent: yellow
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+   
     features:
+        - navigation.footer
         - navigation.indexes
         - navigation.top
+        - navigation.sections
         - navigation.tabs
-        - navigation.tabs.sticky
+        - navigation.tracking
+       # - navigation.tabs.sticky
         - navigation.expand
         - search.suggest
         - search.highlight
+        - content.tooltips
 
 # Extensions
 markdown_extensions:
@@ -122,6 +132,8 @@ extra_css:
     - assets/css/admonition.css
     - assets/css/custom_attributes.css
     - assets/css/customization.css
+    - stylesheets/extra.css
+    
 extra:
   SEO: assets/meta/SEO.png
   comments: $comments #disable comments globally
