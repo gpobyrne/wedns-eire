@@ -2,7 +2,11 @@
 banner: _assets/dandy-eir.PNG
 ---
 
+---  
+share: true  
+---
 
+---
 ## Welcome to the newly-formed Irish chapter of the <font color="#2DC26B">Walter E. Dandy Neurosurgical Society</font>
 
 
@@ -19,7 +23,7 @@ We also welcome students who feel aligned towards related disciplines — like n
 - attend local events (e.g. webinars, job-talks, journal clubs, speed-mentoring nights, neurosurgical skills workshops);
 - learn about and attend international conferences as an Irish representative — allowing the chance to build relationships with students and professionals from around the world, plus exposure to new ideas / techniques, and opportunities to present your research to an international audience.
 
-[[subscribe to email list (hidden)|Click here to sign up for our newsletter]] 
+[[./subscribe to email list (hidden)|Click here to sign up for our newsletter]] 
 
 Follow us on social media!
 
