@@ -1,14 +1,31 @@
 ---
-banner: _assets/img/dandy-eir.PNG
-links: "false"
-share: "true"
+banner: _assets/dandy-eir.PNG
 ---
 
 ---  
 share: true  
----
+path: docs/index.md 
 links: false
----
+mdlinks: false  
+convert: true  
+internals: true  
+nonShared: false  
+embed:  
+send: true  
+remove: bake  
+char: ->  
+attachment:  
+send: true  
+folder: docs/assets  
+dataview: false  
+hardBreak: false  
+repo:  
+owner: gpobyrne  
+repo: wedns-eire  
+branch: main  
+autoclean: true  
+copylink:  
+base: https://wedns-eire.github.io/wedns-eire
 
 ---
 ## Welcome to the newly-formed Irish chapter of the <font color="#2DC26B">Walter E. Dandy Neurosurgical Society</font>
