@@ -8,8 +8,8 @@ copyright: Copyright &copy; 2023 - 2024 George-Paul O`Byrne
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: assets/dandy-eire.png
+    favicon: assets/meta/favicon-32x32.png
     custom_dir: overrides
     font:
         text: Inter
@@ -36,17 +36,17 @@ theme:
         name: Switch to light mode
    
     features:
-        #- navigation.footer
+        - navigation.footer
         - navigation.indexes
         - navigation.top
-        - navigation.sections
+        #- navigation.sections
         - navigation.tabs
         #- navigation.tracking
         - navigation.tabs.sticky
         - navigation.expand
         - search.suggest
         - search.highlight
-       # - content.tooltips
+        - content.tooltips
 
 # Extensions
 markdown_extensions:
